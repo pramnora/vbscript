@@ -5,8 +5,8 @@
 '      USAGE: First, the user is asked to enter their 'plaintext' message.
 '             Next, the program changes each plain english letter: (A),
 '             to become an ASCII encoded digit pair of numbers, instead: (65).
-'             Finally, the program outputs the 'cipertext' message
-'             as  being a series of ASCII encoded number pairs: 65-90/(A-Z). 
+'             Finally, the program outputs the 'plaintext' message...as being...'cipertext';
+'             which is a series of ASCII encoded number pairs: 65-90/(Alphabet: A-Z). 
 
 strPlainText=InputBox("Enter some plain text...","PROGRAM: ASCII Encoder")
 
