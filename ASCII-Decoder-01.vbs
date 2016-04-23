@@ -3,9 +3,11 @@
 '    CREATED: 08:48 23/04/2016
 '    UPDATED: 08:48 23/04/2016 
 
-'      USAGE: User is asked to enter their plain text message;
-'             next, the program calculates...; then, outputs their message
-'             as  being a series of ASCII encoded number pairs: (A-Z)/65-90. 
+'      USAGE: First, the user is asked to enter their ASCII encoded ciphertext message.
+'             Next, the program decodes each pair of ASCII encoded digits: (65),
+'             by changing it to become a single alphabet character, instead: (A); 
+'             after decoding all ASCII encoded characters...the program outputs the user's ciphertext
+'             as being a full plain text message consisting of letters: A-Z/(ASCII: 65-90). 
 
 strEncodedText=InputBox("Enter encoded text...","PROGRAM: ASCII Decoder")
 
