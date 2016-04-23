@@ -18,3 +18,9 @@ For intEachChar = 1 To Len(strPlainText)
 Next
 
 msgBox(strCipherText)
+
+'*** EXAMPLE output...
+'Enter some plain text...
+'ABC
+'656667
+
