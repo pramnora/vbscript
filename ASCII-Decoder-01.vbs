@@ -19,3 +19,8 @@ For intEachPairOfDigits = 1 To Len(strEncodedText) Step 2
 Next
 
 msgBox(strPlainText)
+
+'*** EXAMPLE output...
+'Enter encoded text...
+'656667
+'ABC
