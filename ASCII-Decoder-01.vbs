@@ -5,8 +5,8 @@
 
 '      USAGE: First, the user is asked to enter their ASCII encoded 'ciphertext' message.
 '             Next, the program decodes each pair of ASCII encoded digits: (65),
-'             by changing it to become a single alphabet character, instead: (A); 
-'             after decoding all ASCII encoded characters...the program outputs the user's 'ciphertext'
+'             by changing it to become a single alphabet character, instead: (A). 
+'             After decoding all ASCII encoded characters...the program outputs the user's 'ciphertext'
 '             as being a full 'plaintext' message consisting of letters: A-Z/(ASCII: 65-90). 
 
 strEncodedText=InputBox("Enter encoded text...","PROGRAM: ASCII Decoder")
