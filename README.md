@@ -15,7 +15,9 @@ https://onedrive.live.com/?authkey=%21ABLX6tgctWOgLek&cid=A0D694E1F0F3C819&id=A0
 VBScript Basics, Part 1 | Message Box - Numbers (MsgBox) (Series: 1 of 72 videos)  
 https://www.youtube.com/watch?v=NwIOuZZqolE&list=PL72Es31dJnK6-ZFXXHFurNwJ6QtWPtxbz  
 
-#### Playing with VBScripts...
+-----
+
+#### Tricks: Playing with VBScripts...
 
 3 Simple .VBS Scripts on NotePad  
 https://www.youtube.com/watch?v=KCxerod4PBA
