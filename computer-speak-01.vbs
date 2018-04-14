@@ -3,6 +3,6 @@
 '    Code borrowed from...
 '    https://www.youtube.com/watch?v=KCxerod4PBA
 Dim strMsg,objSAPI
-msg = "I the computer can speak!"
+strMsg = "I the computer can speak!"
 Set objSAPI = WScript.CreateObject("SAPI.Spvoice")
   objSAPI.speak strMsg
