@@ -17,10 +17,10 @@ https://www.youtube.com/watch?v=NwIOuZZqolE&list=PL72Es31dJnK6-ZFXXHFurNwJ6QtWPt
 
 #### Playing with VBScripts...
 
-3 Simple .VBS Scripts on NotePad
+3 Simple .VBS Scripts on NotePad  
 https://www.youtube.com/watch?v=KCxerod4PBA
 
-Windows Tricks with Scripts
+Windows Tricks with Scripts  
 https://www.youtube.com/watch?v=ygrGns5uugU
 
 
