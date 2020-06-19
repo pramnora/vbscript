@@ -3,4 +3,4 @@
 
 Dim FSO
 Set FSO = CreateObject("Scripting.FileSystemObject")
-FSO.CopyFile "New Text Document.txt", "New Text Document 100.txt"
+FSO.CopyFile "New Text Document.txt", "New Text Document 2.txt"
