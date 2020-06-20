@@ -5,5 +5,5 @@ Case 0,1
 Case 2
  MsgBox("two")
 Case Else
- MsgBox("Neither one/nor two")
+ MsgBox("Neither: zero/one/nor, two")
 End Select
