@@ -1,5 +1,6 @@
-'*** Here the function returns a value...;
-'    which is, then, printed out 'outside' of the function itself.
+'*** Here the function has values passed into it; 
+'    first, does the calculation/and, finally, returns a value...;
+'    the value is, then, printed out 'outside' of the function itself.
 
 MsgBox(add(5,4))
 
