@@ -5,3 +5,10 @@
 For x = 1 TO 3
   MsgBox(x)
 Next
+
+'...output...
+
+'1
+'2
+'3
+
