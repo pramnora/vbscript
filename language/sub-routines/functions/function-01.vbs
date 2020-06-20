@@ -1,5 +1,6 @@
 '*** Here the function has values passed into it...;
-'    which are, then, printed out 'inside' of the function itself.
+'    the calculation is done;
+'    and, the resulting value is, then, printed out 'inside' of the function itself.
 
 add 5,4
 
