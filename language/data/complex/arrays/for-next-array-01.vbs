@@ -1,9 +1,8 @@
-'*** LBound(), captures the first array item number;
-'    UBound(), captures the last array item number.
-
-'    The array loop counts through each array item;
-'    and, displays each array item 
-'    using a standard windows output message box.     
+'    The array loop explicitly counts up through each array item;
+'    going from item: 0...all the way up to...item: 3;
+'    which represents both the start/and, end array item numbers.
+'    At the same time, it displays each array item 
+'    inside of a standard windows output message box.     
 
 Dim araItems(3)
 
@@ -12,6 +11,6 @@ araItems(1)="one"
 araItems(2)="two"
 araItems(3)="three"
 
-For intEachItemNo = LBound(araItems) To UBound(araItems)
+For intEachItemNo = 0 To 3
  MsgBox(araItems(intEachItemNo))
 Next 
