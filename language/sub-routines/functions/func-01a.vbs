@@ -15,7 +15,7 @@ FUNCTION add(x,y) '...function header/function start...
                   '   the comma separated parameter list 
                   '   is used to receive the function call arguments
 
-	add=x+y         '   function body/
+	add=x+y   '   function body/
                   '   use function name
                   '   together with an equals sign: =;
                   '   to return the sum result
@@ -28,5 +28,5 @@ END FUNCTION      '   ...function tail/function end
 '    the comment lines all begin with a single apostrophe: (');
 '    if you were to remove all of the comment lines...;
 '    then, this code would considerably shrink down in size.
-'    Please, view the file: func-02.vbs;
+'    Please, view the file: func-01b.vbs;
 '    to see this same program haveing been shrunk down.
