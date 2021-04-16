@@ -5,4 +5,4 @@
 Dim strMsg,objSAPI
 strMsg = "I the computer can speak!"
 Set objSAPI = WScript.CreateObject("SAPI.Spvoice")
-  objSAPI.speak strMsg
+objSAPI.speak strMsg
