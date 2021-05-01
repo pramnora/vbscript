@@ -1,9 +1,21 @@
 '*** Created: 09:30 02/10/2017
-'    Updated: 00:34 09/09/2019
+'    Updated: 22:10 01/05/2021
+
+'*** Variable declarations...
+
+Dim strApps(5)
+
+'*** initialise array with which apps to open...
+
+strApps(1)="notepad.exe"
+strApps(2)="write.exe"
+strApps(3)="mspaint.exe"
+strApps(4)="cmd.exe"
+strApps(5)="https://www.youtube.com"
+
+'*** initialise menu...
 
 strUnderlineChars=String(50,"*")
-
-strTitleText="Please, enter a number..."
 
 strMenuText="MENU: " & vbCrLf & vbCrLf &_
                    "<1> Notepad  - Word processor/(plain text ASCII)" & vbCrLf &_
@@ -18,12 +30,14 @@ strMenuText="MENU: " & vbCrLf & vbCrLf &_
                    "...and, then, pressing the ENTER key." & vbCrLf &_
                    "-Thanks!" 
 
+strTitleText="Please, enter a number..."
+
 strUserEntryText="Enter a number"
+
+'*** get user menu selection number choice...
 
 intUserNo=InputBox(strMenuText,strTitleText,strUserEntryText)
 
-If intUserNo = 1 Then CreateObject("WScript.Shell").Run "notepad.exe"
-If intUserNo = 2 Then CreateObject("WScript.Shell").Run "write.exe"
-If intUserNo = 3 Then CreateObject("WScript.Shell").Run "mspaint.exe"
-If intUserNo = 4 Then CreateObject("WScript.Shell").Run "cmd.exe"
-If intUserNo = 5 Then CreateObject("WScript.Shell").Run "https://www.youtube.com"
+'*** launch user selected program...
+
+If intUserNo <> "" Then CreateObject("WScript.Shell").Run strApps(intUserNo)
