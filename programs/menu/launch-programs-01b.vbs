@@ -1,7 +1,9 @@
 '*** Created: 09:30 02/10/2017
 '    Updated: 22:10 01/05/2021
 
+'----------------------------
 '*** Variable declarations...
+'----------------------------
 
 Dim strApps(5)
 
@@ -33,6 +35,10 @@ strMenuText="MENU: " & vbCrLf & vbCrLf &_
 strTitleText="Please, enter a number..."
 
 strUserEntryText="Enter a number"
+
+'-------------------
+'*** Main program...
+'-------------------
 
 '*** get user menu selection number choice...
 
