@@ -36,8 +36,8 @@ strUserEntryText="Enter a number"
 
 '*** get user menu selection number choice...
 
-intUserNo=InputBox(strMenuText,strTitleText,strUserEntryText)
+intUserNo=CInt(InputBox(strMenuText,strTitleText,strUserEntryText))
 
 '*** launch user selected program...
 
-If intUserNo <> "" Then CreateObject("WScript.Shell").Run strApps(intUserNo)
+If intUserNo <> 0 Then CreateObject("WScript.Shell").Run strApps(intUserNo)
