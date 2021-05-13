@@ -1,0 +1,3 @@
+'*** This version of the code is absolute 'barebones'...; and, is just merely 2 lines long...(no re-run loop/no If/End If check)/minimal variable name length)...
+s = InputBox("Enter a sum (eg. 1+1)...")
+MsgBox(eval(s))
