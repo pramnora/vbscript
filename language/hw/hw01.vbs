@@ -1,0 +1,3 @@
+'*** Output string literal...
+
+MsgBox("Hello, world!")
