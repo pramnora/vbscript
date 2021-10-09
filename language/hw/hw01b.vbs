@@ -1,0 +1,3 @@
+'*** Output a string literal.../with window title heading...
+
+msgBox "Hello, world",0,"hw01b"
