@@ -70,9 +70,13 @@ next
 msgBox(encodedText)
 
 '------------------------
-'Example Run:-
+'Example Run(1):-
 
 'Enter text: abc
 '    Output: BCD
 '------------------------
+'Example Run(2):-
 
+'Enter text: This is a secret message.
+'    Output: UIJTJTBTFDSFUNFTTBHF
+'------------------------
