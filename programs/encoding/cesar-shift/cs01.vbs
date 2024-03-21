@@ -2,6 +2,10 @@
 '***  PROGRAM: Text encoding/Ceaser Shift
 '    LANGUAGE: VBScript/Visual BASIC Script
 
+'    LOCATION: WMCollege, Mornington Crescent branch, London, UK.
+'          OS: Windows 10 Enterprise
+'    COMPUTER: PC
+
 '    CREATED: Thu 21st March 2024 11:37 AM GMT
 '    UPDATED: Thu 21st March 2024 11:37 AM GMT
 '---------------------------------------------
