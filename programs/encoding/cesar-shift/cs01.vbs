@@ -17,8 +17,8 @@
 '    This program will encode any text message typed in...
 '    by using a Caesar Shift cipher key of: +1.
 
-'    -(The program will, automatically, change any lower case letters;
-'      into behing upper case letters, instead)-
+'    -(The program will, automatically, change any lower case letters...
+'      into being upper case letters, instead)-
 
 '    This means:
 '    A is translated to become B
@@ -50,7 +50,7 @@ for eachChar=1 to Len(userText)
  '*** get each letter in user text...
  aLetter=Mid(userText,eachChar,1)
 
- '*** Check if it's an alphabet letter, first, before doing any endcoding...
+ '*** Check if it's an alphabet letter, first, before doing any encoding...
  If aLetter >="A" And aLetter <="Z" Then
 
   '*** encode each letter in user text...
@@ -68,3 +68,11 @@ next
 '*** Show encoded text...
 
 msgBox(encodedText)
+
+'------------------------
+'Example Run:-
+
+'Enter text: abc
+'    Output: BCD
+'------------------------
+
